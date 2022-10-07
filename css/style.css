@@ -394,3 +394,47 @@ hosting
 .footer-col h6 {
    font-size: 20px;
 }
+
+
+@media only screen and (max-width: 800px) { 
+  .setting-section,
+.testing-section,
+.technical-section {
+  flex-direction: column;
+}
+
+.nav-items {
+  display: none;
+}
+
+.heading {
+  font-size: 40px;
+}
+
+/* comman text css */
+/* ------ */
+.text {
+  font-size: 15px;
+}
+/* ----- */
+
+/* comman button css */
+/* ----- */
+.btn {
+  padding: 13px;
+  width: 150px;
+  border-radius: 0.5rem;
+  background-color: #0465ea;
+  color: #ffffff;
+  font-weight: 700;
+  border: none;
+}
+
+.text-div {
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px; */
+}
+}
