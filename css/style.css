@@ -401,6 +401,8 @@ hosting
 .testing-section,
 .technical-section {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-items {
@@ -432,9 +434,8 @@ hosting
 
 .text-div {
   width: 100%;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 20px; */
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px;  */
 }
 }
