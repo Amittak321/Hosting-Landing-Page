@@ -63,7 +63,7 @@ nav {
 .testing-section,
 .technical-section {
   display: flex;
-  flex: 2;
+  /* flex: 2; */
   flex-direction: row;
   margin-top: 120px;
   gap: 100px;
@@ -403,10 +403,19 @@ hosting
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 
 .nav-items {
   display: none;
+}
+
+.nav-btn {
+  padding: 10px;
+  width: 150px;
+  border-radius: 0.6rem;
+  font-size: 15px;
+  margin-right:  -150px;
 }
 
 .heading {
@@ -420,22 +429,43 @@ hosting
 }
 /* ----- */
 
-/* comman button css */
-/* ----- */
-.btn {
-  padding: 13px;
-  width: 150px;
-  border-radius: 0.5rem;
-  background-color: #0465ea;
-  color: #ffffff;
-  font-weight: 700;
-  border: none;
-}
-
 .text-div {
   width: 100%;
-  align-items: center;
+  /* align-items: center;  */
+  margin-left: 300px;
   justify-content: center;
   /* gap: 20px;  */
 }
+
+/* ---------------------
+      Service Section
+ ------------------------
+  */
+  
+  .service-text {
+    margin-left: 150px;
+    width: 70%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .service-text h1 {
+    font-size: 40px;
+  }
+  
+  /* --------------
+          Card
+    -----------------
+     */
+  
+  .service-cards {
+    width: 70%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .service-card {
+    margin-left: 150px;
+  }
+
+
+  
 }
