@@ -467,7 +467,8 @@ hosting
   }
   
   .service-card {
-    margin-left: 150px;
+    padding: 10px;
+    margin-left: 50px;
   }
 
 
