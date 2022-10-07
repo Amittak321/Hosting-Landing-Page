@@ -444,7 +444,6 @@ hosting
   
   .service-text {
     margin-left: 150px;
-    width: 70%;
     grid-template-columns: repeat(1, 1fr);
   }
   
@@ -458,7 +457,6 @@ hosting
      */
   
   .service-cards {
-    width: 70%;
     grid-template-columns: repeat(1, 1fr);
   }
   
