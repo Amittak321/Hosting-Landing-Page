@@ -418,15 +418,15 @@ hosting
   margin-right:  -150px;
 }
 
-.heading {
+/* .heading {
   font-size: 40px;
-}
+} */
 
 /* comman text css */
 /* ------ */
-.text {
+/* .text {
   font-size: 15px;
-}
+} */
 /* ----- */
 
 .text-div {
@@ -447,9 +447,9 @@ hosting
     grid-template-columns: repeat(1, 1fr);
   }
   
-  .service-text h1 {
+  /* .service-text h1 {
     font-size: 40px;
-  }
+  } */
   
   /* --------------
           Card
